@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Route, Routes } from 'react-router-dom';
 import BaseNavbar from '../components/ui/common/Navbar/BaseNavbar';
 import Inicio from '../components/screens/Inicio/Inicio';
@@ -12,7 +12,7 @@ import UnidadMedida from '../components/screens/UnidadMedida/UnidadMedida';
 import Promocion from '../components/screens/Promocion/Promocion';
 
 
-const Rutas: React.FC = () => {
+const Rutas = () => {
   return (
     <>
       <div className='navbar'>
